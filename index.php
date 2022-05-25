@@ -23,7 +23,7 @@ ul{
 
 </html>
 <?php
-include 'Suggest.php';
+include 'suggest.php';
 if(isset($_GET['key']))
 {
 
