@@ -1,0 +1,7 @@
+{
+  "name": "gSearchSuggest",
+  "description": "A web app to generate Google Search suggestions.",
+  "repository": "https://github.com/ilovefreesw/gsearchsuggest/",
+  "logo": "https://cdn-icons-png.flaticon.com/512/2875/2875331.png",
+  "keywords": ["php", "google", "serach"]
+}
