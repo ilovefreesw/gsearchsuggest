@@ -28,7 +28,7 @@ class Suggest {
 	function Query(){
 	 	
 	 	$agent = "AAPP Application/1.0 (Windows; U; Windows NT 5.1; de; rv:1.8.0.4)";
-	    $host = "http://suggestqueries.google.com/complete/search?output=toolbar&hl=".$this->locale."&q=".$this->query;
+	    $host = "https://suggestqueries.google.com/complete/search?output=toolbar&hl=".$this->locale."&q=".$this->query;
 	    $ch = curl_init();
 	    
 	    curl_setopt($ch, CURLOPT_URL, $host);
