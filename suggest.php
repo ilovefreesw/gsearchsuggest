@@ -1,24 +1,4 @@
 <?php
-/** 
- * Get a list of search suggestions from Google API.
- * Return array with suggestions in chosen language and/or link to Google results
- * Requires input $query (start search query) and $locale (language)
- * Able to cache results. (recommended) ;
- *
- * Use:
- * $suggest = new Suggest('How old is', 'en');
- * print_r($suggest->data);
- * <a href="$suggest->link">Click here for Google results</a>
- * 
- * @package : Suggest;
- * @version : 1.0;
- * @license : MIT License (MIT);
- * @author : Jochem Stoel;
- * @link : https://github.com/jochemstoel;
- * @param query, locale;
- * @return Mixed;
- */
-
 class Suggest {
 	
 	var $query;
