@@ -1,4 +1,4 @@
-## gSearchSuggestgSearchSuggest
+## gSearchSuggest
 This is a simple web app to scrape and download Google Search Suggestions. You can enter any keyword and phrase, and it will generate the top most relevant search suggestions. It uses the Google API itself to do the heavy lifting.
 ### Steps to Install and Use:
 1. Clone or download the repo and put `index.php` and `suggest.php` files on a server that can run PHP. Use ant free hosting like Infity Free for it.
